@@ -1,9 +1,20 @@
 import { useState } from "react";
+import firebase from "../firebase/base";
+
+
+
 const Header= ()=>{
+
+    let db = firebase.firestore();
+  
 
     const [BadgeNo, setBadge] = useState("");
     const [error, setError] = useState("")
     const [message, setMessage] = useState("")
+
+   
+      
+  
 
     const VerifyBadge=(e)=>{
         e.preventDefault();
@@ -19,7 +30,13 @@ const Header= ()=>{
                 setError('');
              }, 2000);
         }
-        
+        db.collection("Verify-Badge-No")
+            .doc(BadgeNo)
+            .get()
+            .then(doc => {
+            const data = doc.data();
+            console.log(data); // LA city object with key-value pair
+            });
         setBadge("")
 
     }
@@ -27,7 +44,7 @@ const Header= ()=>{
     return(
         <>
            <div className="container text-center">
-               <p className="display-6"><i class="fa fa-id-badge" aria-hidden="true"> Verify Badge </i></p>
+               <p className="display-6"><i className="fa fa-id-badge" aria-hidden="true"> Verify Badge </i></p>
             <form onSubmit={VerifyBadge}>
 
             {message && <div className="alert alert-success" role="alert">
@@ -45,11 +62,16 @@ const Header= ()=>{
                 </div>
                 </div>
                 <div className="d-flex justify-content-center">
-                    <button  type="submit" class="btn cbtn">Submit</button>
+                    <button  type="submit" className="btn cbtn">Submit</button>
                 </div>
              </div>
              </form>
             </div>
+
+
+           
+
+
         </>
     );
 }

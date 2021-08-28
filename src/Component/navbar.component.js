@@ -30,17 +30,7 @@ const Navbar = ()=>{
                     </ul>
                     <div className="d-flex justify-content-center">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        {/* <li className="nav-item">
-                            <a className="nav-link btn" aria-current="page" href="#">SignIn</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link btn" aria-current="page"  href="#">SignUp</a>
-                        </li> */}
-                            {/* <DarkModeToggle
-                                onChange={setIsDarkMode}
-                                checked={isDarkMode}
-                                size={60}
-                                /> */}
+                       
 
                     </ul>
                     </div>
