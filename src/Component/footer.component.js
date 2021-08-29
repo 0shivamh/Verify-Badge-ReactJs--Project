@@ -4,12 +4,12 @@ const Footer =()=>{
         <div className="text-center" >
             <footer>
         <div className="container overflow-hidden">
-        <a aria-hidden='true' class='fa fa-envelope' href='mailto:business@cwipedia.in' id='devso' rel='noreferrer' target='_blank' title='mail us'></a>
-        <a aria-hidden='true' class='fa fa-instagram' href='http://instagram.com/cwipedia.in' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
-        <a aria-hidden='true' class='fa fa-twitter' href='https://twitter.com/cwipedia' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
-        <a aria-hidden='true' class='fa fa-linkedin' href='https://www.linkedin.com/company/cwipedia' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
-        <a aria-hidden='true' class='fa fa-telegram' href='https://telegram.me/msbteresources' id='devso' rel='noreferrer' target='_blank' title='Join group'></a>
-        <a aria-hidden='true' class='fa fa-youtube-play' href='https://www.youtube.com/channel/UCzARaaZ1furvIwUaNUsORWQ' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
+        <a aria-hidden='true' className='fa fa-envelope' href='mailto:business@cwipedia.in' id='devso' rel='noreferrer' target='_blank' title='mail us'></a>
+        <a aria-hidden='true' className='fa fa-instagram' href='http://instagram.com/cwipedia.in' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
+        <a aria-hidden='true' className='fa fa-twitter' href='https://twitter.com/cwipedia' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
+        <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/company/cwipedia' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
+        <a aria-hidden='true' className='fa fa-telegram' href='https://telegram.me/msbteresources' id='devso' rel='noreferrer' target='_blank' title='Join group'></a>
+        <a aria-hidden='true' className='fa fa-youtube-play' href='https://www.youtube.com/channel/UCzARaaZ1furvIwUaNUsORWQ' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
         <hr/>
         <div className="row gx-5">
        

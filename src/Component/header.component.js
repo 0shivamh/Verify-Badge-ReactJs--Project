@@ -97,9 +97,9 @@ const Header= ()=>{
 
 const Certificate = () => <div>
     <button className="cbtn btn" id="Download">Donwload Badge</button>
-  <div id="startBadge" className="Gen-Badge d-flex justify-content-center">
+  <div id="startBadge" className="Gen-Badge d-flex justify-content-center ">
 
-        <div className="card badge-card">
+        <div className="card badge-card shadow">
             <div className="card-body b-body text-center">
             <img src={tbadge} className="img-fluid" alt="Internship completion Badge | cwipedia"/>
                 <p className="display-5">This is awarded to</p>
