@@ -2,7 +2,6 @@ import { Component, useState } from "react";
 import firebase from "../firebase/base";
 import defaultBadge from "../asset/badge.gif";
 import tbadge from "../asset/tbadge.png";
-import { Preview, print } from 'react-html2pdf';
 
 
 const Header= ()=>{
