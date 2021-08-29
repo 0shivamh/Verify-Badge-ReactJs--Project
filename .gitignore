@@ -6,7 +6,7 @@
 .pnp.js
 
 /src/firebase/base.js
-
+/src/Component/header.component.js
 
 # testing
 /coverage
