@@ -16,7 +16,7 @@ const Footer =()=>{
             <div className="col-sm">
 
                 <p className="h4">cwipedia.in</p>
-                <p className="h5">Pune, Maharashtra</p>
+                <p className="h5">Pune, Maharashtra, 412207</p>
                 {/* <p className="h5">cwipedia.in</p> */}
 
             </div>
